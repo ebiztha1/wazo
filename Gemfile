@@ -27,7 +27,7 @@ gem 'jbuilder', '~> 1.2'
 
 gem 'bootstrap-sass', github: 'twbs/bootstrap-sass',  branch: 'master'
 gem 'devise' 
-
+gem 'paperclip', '~> 3.0'
 
 group :development, :test do
 	gem 'sqlite3'
