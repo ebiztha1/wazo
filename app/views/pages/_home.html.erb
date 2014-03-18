@@ -1,10 +1,7 @@
 <div class= "jumbotron center">
 	<h1>Welcome to Thewazo Social</h1>
 	<h2>There's nothing more powerful than an idea whose time has come</h2>
-	<% if user_signed_in? %>
-		#do something
-	<% else %>
-
+	
 	<p>
 		<%= link_to "Sign in", new_user_session_path, class: 'btn btn-primary' %>
 
@@ -12,5 +9,4 @@
 	</p>
 	<p> Visit <%= link_to "Thewazo Magazine", "http://thewazo.com" %>
 	</p>
-	<% end %>
 </div>
